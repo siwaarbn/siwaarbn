@@ -1,16 +1,27 @@
-## Hi there 👋
+## Siwar Ben Nejma
 
-<!--
-**siwaarbn/siwaarbn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Software engineer focused on AI/ML systems and developer tooling. Currently finishing my B.Sc. in Computer Science at TU Darmstadt, building LLM pipelines in production at a Frankfurt fintech, and teaching computer architecture as a TA.
 
-Here are some ideas to get you started:
+I like working at the intersection of systems and intelligence — things that are fast, observable, and actually useful.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### Projects
+
+**[GROF](https://github.com/siwaarbn/grof)** — GPU profiler for AI workloads. Correlates CPU call stacks with GPU kernel execution via eBPF + CUDA, achieving <5% overhead vs. 10–50% for nsys/nvprof. Built the backend (FastAPI, PostgreSQL) and frontend (React, D3.js flamegraphs) as part of a 5-person team at TU Darmstadt.
+
+**[codesearch](https://github.com/siwaarbn/codesearch)** — Semantic code search engine. Search any codebase by what functions *do*, not what they're *called*. Tree-sitter for AST parsing, sentence-transformers for embeddings, FAISS for retrieval.
+
+**[ragbase](https://github.com/siwaarbn/ragbase)** — End-to-end RAG system for PDFs. Chunking, embedding, vector retrieval, grounded answers with source citations and RAGAS evaluation.
+
+---
+
+### Stack
+
+`Python` `TypeScript` `React` `FastAPI` `PostgreSQL` `Docker` `eBPF` `CUDA` `FAISS` `ChromaDB`
+
+---
+
+### Contact
+
+[linkedin.com/in/siwar-ben-nejma](https://linkedin.com/in/siwar-ben-nejma) · siwarbennejma2@gmail.com · Darmstadt, Germany

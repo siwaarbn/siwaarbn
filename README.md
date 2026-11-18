@@ -1,27 +1,33 @@
 ## Siwar Ben Nejma
 
-Software engineer focused on AI/ML systems and developer tooling. Currently finishing my B.Sc. in Computer Science at TU Darmstadt, building LLM pipelines in production at a Frankfurt fintech, and teaching computer architecture as a TA.
+I build LLM systems and the tools around them. I'm doing my M.Sc. in Computer Science at TU Darmstadt, work as an AI/ML working student at MorgenFund (DWS) in Frankfurt, where I build LLM pipelines for document processing, and teach Parallel Programming as a TA.
 
-I like working at the intersection of systems and intelligence — things that are fast, observable, and actually useful.
+---
+
+### Research
+
+**Masked diffusion language models for code generation.** Seminar work on how diffusion LLMs write code by unmasking tokens in parallel, and on making their RL training more stable. I proposed tracking "AR-ness" as an early warning signal during training and an adaptive temperature schedule for rollouts. Currently under review with Springer.
 
 ---
 
 ### Projects
 
-**[GROF](https://github.com/siwaarbn/grof)** — GPU profiler for AI workloads. Correlates CPU call stacks with GPU kernel execution via eBPF + CUDA, achieving <5% overhead vs. 10–50% for nsys/nvprof. Built the backend (FastAPI, PostgreSQL) and frontend (React, D3.js flamegraphs) as part of a 5-person team at TU Darmstadt.
+**[Python Mental Model Linter](https://github.com/siwaarbn/python-mental-model-linter)** · my Bachelor thesis (graded 1.0). Finds the wrong belief behind a beginner's Python bug, not just the broken line. 22 readable AST rules detect 11 misconceptions without running the code, and each finding opens up in four layers of feedback. FastAPI, React, TypeScript; usability score 86.9 with 13 testers.
 
-**[codesearch](https://github.com/siwaarbn/codesearch)** — Semantic code search engine. Search any codebase by what functions *do*, not what they're *called*. Tree-sitter for AST parsing, sentence-transformers for embeddings, FAISS for retrieval.
+**[GROF](https://github.com/siwaarbn/grof)** · GPU profiler for AI workloads, built in a team of 5 at TU Darmstadt. Links CPU call stacks to the GPU kernels they launch using eBPF and CUDA, at under 5% overhead. I built the backend (FastAPI, PostgreSQL, Redis) and the dashboard (React, D3.js flamegraphs and GPU timeline).
 
-**[ragbase](https://github.com/siwaarbn/ragbase)** — End-to-end RAG system for PDFs. Chunking, embedding, vector retrieval, grounded answers with source citations and RAGAS evaluation.
+**[codesearch](https://github.com/siwaarbn/codesearch)** · semantic code search. Find functions by what they *do*, not what they're called. tree-sitter for parsing, sentence-transformers for embeddings, FAISS for retrieval, with a CLI and a small web UI.
+
+**[ragbase](https://github.com/siwaarbn/ragbase)** · question answering over PDFs. Every answer cites the pages it came from, and a RAGAS check scores how faithful it is. PyMuPDF, ChromaDB, Llama 3.3 via Groq, Streamlit.
 
 ---
 
 ### Stack
 
-`Python` `TypeScript` `React` `FastAPI` `PostgreSQL` `Docker` `eBPF` `CUDA` `FAISS` `ChromaDB`
+`Python` `TypeScript` `React` `FastAPI` `PostgreSQL` `Docker` `LLMs` `RAG` `FAISS` `ChromaDB` `eBPF` `CUDA`
 
 ---
 
 ### Contact
 
-[linkedin.com/in/siwar-ben-nejma](https://linkedin.com/in/siwar-ben-nejma) · siwarbennejma2@gmail.com · Darmstadt, Germany
+[LinkedIn](https://www.linkedin.com/in/siwar-ben-nejma-879606403) · siwarbennejma2@gmail.com · Darmstadt, Germany

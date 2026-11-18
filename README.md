@@ -2,6 +2,8 @@
 
 I build LLM systems and the tools around them. I'm doing my M.Sc. in Computer Science at TU Darmstadt, work as an AI/ML working student at MorgenFund (DWS) in Frankfurt, where I build LLM pipelines for document processing, and teach Parallel Programming as a TA.
 
+**Portfolio:** [siwaarbn.github.io](https://siwaarbn.github.io)
+
 ---
 
 ### Research
@@ -30,4 +32,4 @@ I build LLM systems and the tools around them. I'm doing my M.Sc. in Computer Sc
 
 ### Contact
 
-[LinkedIn](https://www.linkedin.com/in/siwar-ben-nejma-879606403) · siwarbennejma2@gmail.com · Darmstadt, Germany
+[Portfolio](https://siwaarbn.github.io) · [LinkedIn](https://www.linkedin.com/in/siwar-ben-nejma-879606403) · siwarbennejma2@gmail.com · Darmstadt, Germany
